@@ -60,7 +60,7 @@ The Autoencoder model consists of the following layers:
 - Linear layer with 512 units, ReLU activation, and Dropout
 - Linear layer with input dimension units, ReLU activation
 - 
-<img src="Autoencoder_schema" width="400" alt="alt text">
+<img src="Autoencoder_schema.png" width="400" alt="alt text">
 
 ### Hyperparameters:
 - **Encoding Dimension**: 64
