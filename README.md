@@ -30,6 +30,8 @@ An Autoencoder is a type of artificial neural network used to learn efficient la
 - **Encoder**: Compresses the input into a latent-space representation.
 - **Decoder**: Reconstructs the input from the latent space.
 
+<img src="Autoencoder_schema.png" width="400" alt="alt text">
+
 By training the Autoencoder on user ratings, we can learn a compact representation of users' preferences and use it to predict ratings for movies that the users haven't seen.
 
 ## Dataset
@@ -59,8 +61,6 @@ The Autoencoder model consists of the following layers:
 - Linear layer with 256 units, ReLU activation, and Dropout
 - Linear layer with 512 units, ReLU activation, and Dropout
 - Linear layer with input dimension units, ReLU activation
-- 
-<img src="Autoencoder_schema.png" width="400" alt="alt text">
 
 ### Hyperparameters:
 - **Encoding Dimension**: 64
