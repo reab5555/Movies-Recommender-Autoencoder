@@ -74,7 +74,7 @@ The Autoencoder model consists of the following layers:
 
 ## Training and Validation
 
-The model is trained for 30 epochs with the following results:
+The model is trained for 30 epochs with the following results on NVIDIA A100 Tensor Core GPU:
 
 | Epoch | Training Loss | Training RMSE | Validation Loss | Validation RMSE |
 |-------|---------------|---------------|-----------------|-----------------|
@@ -90,7 +90,7 @@ The model is trained for 30 epochs with the following results:
 
 ## Results
 
-The model was trained for 30 epochs, achieving the following results on NVIDIA A100 Tensor Core GPU:
+The model was trained for 30 epochs, achieving the following results:
 
 - **Best Training Loss**: 0.6570
 - **Best Training RMSE**: 0.8106
