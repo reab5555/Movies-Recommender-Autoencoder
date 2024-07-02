@@ -104,7 +104,3 @@ The model was trained for 30 epochs, achieving the following results:
 ## Prediction and Recommendation
 
 A separate script is used for predicting or recommending 10 movies for a new user who has rated only some of the movies. The recommendation is based on what the user has already rated and what similar users have rated. Since this is a CF system, the recommendations are generated based on the similarities between users.
-
-## References
-
-Netflix Prize Dataset. [Link to dataset]([https://www.netflixprize.com/](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data))
