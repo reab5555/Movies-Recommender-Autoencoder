@@ -1,3 +1,5 @@
+<img src="Diagrams/icon.webp" width="150" alt="alt text">
+
 # Netflix Movie Recommendation System using Autoencoder
 
 This project implements a movie recommendation system using an Autoencoder to predict and recommend movies to users. The dataset used is a subset of the Netflix Prize dataset, which includes user ratings for movies.   
@@ -87,6 +89,8 @@ The model is trained for 30 epochs with the following results:
 | 28    | 0.6628        | 0.8141        | 0.6999          | 0.8366          |
 | 29    | 0.6607        | 0.8128        | 0.6974          | 0.8351          |
 | 30    | 0.6570        | 0.8106        | 0.6972          | 0.8350          |
+
+<img src="learning_curve.png" width="400" alt="alt text">
 
 ## Results
 
