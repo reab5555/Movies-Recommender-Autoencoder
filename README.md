@@ -1,6 +1,6 @@
 <img src="Diagrams/icon.webp" width="150" alt="alt text">
 
-# Netflix Movie Recommendation System using Autoencoder
+# Movie Recommendation System using Autoencoder
 
 This project implements a movie recommendation system using an Autoencoder to predict and recommend movies to users. The dataset used is a subset of the Netflix Prize dataset, which includes user ratings for movies.   
    
