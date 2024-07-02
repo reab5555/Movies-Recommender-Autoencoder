@@ -2,8 +2,6 @@
 
 This project implements a movie recommendation system using an Autoencoder to predict and recommend movies to users. The dataset used is a subset of the Netflix Prize dataset, which includes user ratings for movies.   
    
-Due to the computational requirements, only a quarter of the dataset is used for training.   
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -26,7 +24,7 @@ Collaborative Filtering (CF) is a technique used in recommendation systems where
 
 ## Autoencoder Models
 
-An Autoencoder is a type of artificial neural network used to learn efficient codings of input data. The network consists of two main parts:
+An Autoencoder is a type of artificial neural network used to learn efficient latent features of input data. The network consists of two main parts:
 - **Encoder**: Compresses the input into a latent-space representation.
 - **Decoder**: Reconstructs the input from the latent space.
 
@@ -34,7 +32,8 @@ By training the Autoencoder on user ratings, we can learn a compact representati
 
 ## Dataset
 
-The dataset used is a subset of the Netflix Prize dataset. This dataset includes user ratings for various movies. The ratings range from 1 to 5, and users have not rated all movies. We use the following data preprocessing steps:
+The dataset used is a subset of the Netflix Prize dataset. Due to the computational requirements, only a quarter of the dataset is used for training.   
+This dataset includes user ratings for various movies. The ratings range from 1 to 5, and users have not rated all movies. We use the following data preprocessing steps:    
 1. Loading the dataset.
 2. Creating a sparse user-movie matrix.
 3. Splitting the data into training (80%) and testing (20%) sets.
@@ -50,13 +49,13 @@ The dataset used is a subset of the Netflix Prize dataset. This dataset includes
 The Autoencoder model consists of the following layers:
 
 ### Encoder:
-- Linear layer with 512 units, ReLU activation, Dropout
-- Linear layer with 256 units, ReLU activation, Dropout
+- Linear layer with 512 units, ReLU activation, and Dropout
+- Linear layer with 256 units, ReLU activation, and Dropout
 - Linear layer with 64 units, ReLU activation
 
 ### Decoder:
-- Linear layer with 256 units, ReLU activation, Dropout
-- Linear layer with 512 units, ReLU activation, Dropout
+- Linear layer with 256 units, ReLU activation, and Dropout
+- Linear layer with 512 units, ReLU activation, and Dropout
 - Linear layer with input dimension units, ReLU activation
 
 ### Hyperparameters:
@@ -64,6 +63,7 @@ The Autoencoder model consists of the following layers:
 - **Dropout Rate**: 0.1
 - **Learning Rate**: 0.0001
 - **Weight Decay**: 1e-5
+- **Early Stopping Patience**: 1
 - **Batch Size**: 128
 - **Epochs**: 30
 - **Loss Function**: Mean Squared Error (MSE)
@@ -121,7 +121,4 @@ A separate script is used for predicting or recommending 10 movies for a new use
 
 ## References
 
-1. Netflix Prize Dataset. [Link to dataset](https://www.netflixprize.com/)
-2. PyTorch Documentation. [Link to documentation](https://pytorch.org/docs/stable/index.html)
-
-Feel free to explore and contribute to this project. Happy coding!
+Netflix Prize Dataset. [Link to dataset]([https://www.netflixprize.com/](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data))
