@@ -9,7 +9,7 @@ This project implements a movie recommendation system using an Autoencoder to pr
 - [Introduction](#introduction)
 - [Collaborative Filtering](#collaborative-filtering)
 - [Autoencoder Models](#autoencoder-models)
-- [Dataset](#dataset)
+- [Netflix Dataset](#dataset)
 - [Model Architecture and Hyperparameters](#model-architecture-and-hyperparameters)
 - [Training and Validation](#training-and-validation)
 - [Results](#results)
@@ -33,7 +33,7 @@ By training the Autoencoder on user ratings, we can learn a compact representati
 
 <img src="Autoencoder_schema.png" width="200" alt="alt text">
 
-## Dataset
+## Netflix Dataset
 
 The dataset used is a subset of the Netflix Prize dataset. Due to the computational requirements, only a quarter of the dataset is used for training.   
 This dataset includes user ratings for various movies. The ratings range from 1 to 5, and users have not rated all movies. We use the following data preprocessing steps:    
