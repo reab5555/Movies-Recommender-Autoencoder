@@ -14,7 +14,6 @@ This project implements a movie recommendation system using an Autoencoder to pr
 - [Training and Validation](#training-and-validation)
 - [Results](#results)
 - [Prediction and Recommendation](#prediction-and-recommendation)
-- [References](#references)
 
 ## Introduction
 
