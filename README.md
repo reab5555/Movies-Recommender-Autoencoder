@@ -30,9 +30,9 @@ An Autoencoder is a type of artificial neural network used to learn efficient la
 - **Encoder**: Compresses the input into a latent-space representation.
 - **Decoder**: Reconstructs the input from the latent space.
 
-<img src="Autoencoder_schema.png" width="200" alt="alt text">
+By training the Autoencoder on user ratings, we can learn a compact representation of users preferences and use it to predict ratings for movies that the users haven't seen.
 
-By training the Autoencoder on user ratings, we can learn a compact representation of users' preferences and use it to predict ratings for movies that the users haven't seen.
+<img src="Autoencoder_schema.png" width="200" alt="alt text">
 
 ## Dataset
 
