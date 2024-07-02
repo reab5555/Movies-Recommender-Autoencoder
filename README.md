@@ -90,7 +90,7 @@ The model is trained for 30 epochs with the following results:
 
 ## Results
 
-The model was trained for 30 epochs, achieving the following results:
+The model was trained for 30 epochs, achieving the following results on NVIDIA A100 Tensor Core GPU:
 
 - **Best Training Loss**: 0.6570
 - **Best Training RMSE**: 0.8106
