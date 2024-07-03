@@ -1,4 +1,4 @@
-<img src="Diagrams/icon.jpeg" width="150" alt="alt text">
+<img src="icon.jpeg" width="150" alt="alt text">
 
 # Movie Recommendation System using Autoencoder
 
