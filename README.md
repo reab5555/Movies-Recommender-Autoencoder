@@ -69,7 +69,7 @@ The Autoencoder model consists of the following layers:
 - **Early Stopping Patience**: 1
 - **Batch Size**: 128
 - **Epochs**: 30
-- **Loss Function**: Mean Squared Error (MSE)
+- **Loss Function**: Root Mean Squared Error (RMSE)
 - **Optimizer**: Adam with L2 regularization
 
 ## Training and Validation
