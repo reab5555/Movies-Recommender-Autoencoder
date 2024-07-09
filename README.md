@@ -86,16 +86,9 @@ The model is trained for 30 epochs with the following results on NVIDIA A100 40G
 | 29    | 0.6607        | 0.8128        | 0.6974          | 0.8351          |
 | 30    | 0.6570        | 0.8106        | 0.6972          | 0.8350          |
 
+- **Validation RMSE**: 0.8350
+
 <img src="learning_curve.png" width="400" alt="alt text">
-
-## Results
-
-The model was trained for 30 epochs, achieving the following results:
-
-- **Best Training Loss**: 0.6570
-- **Best Training RMSE**: 0.8106
-- **Best Validation Loss**: 0.6972
-- **Best Validation RMSE**: 0.8350
 
 ## Prediction and Recommendation
 
